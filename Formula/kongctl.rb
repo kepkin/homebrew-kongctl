@@ -9,16 +9,9 @@ class Kongctl < Formula
 
   desc "Command-line client for Kong admin api"
   homepage "https://github.com/kepkin/kongctl"
-  url "https://test-files.pythonhosted.org/packages/93/88/da338f8f5e1506cde2b403c716b1f27ec05a4bac2d38fb3fd6b3d42b1883/kongctl-0.0.1.tar.gz"
-  sha256 "ceb46e126d48bb7deec802567583ed672a22c387324bcc89831c26dae5d22753"
+  url "https://files.pythonhosted.org/packages/15/49/e091c7e5afeaa337e1b01ffde8935eaffa35180340d1e13c410be5411fa7/kongctl-0.0.2.tar.gz"
+  sha256 "f3b3080998e9c3043a1d790c4b0c84263b9089686ca0b60a02e9a5e75f8d5d9e"
   head "https://github.com/kepkin/kongctl.git"
-
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "158258be68ac93de13860be2bef02da6fd8b68aa24b2e6609bcff1ec3f93e7a0" => :mojave
-    sha256 "54352116b6fa2c3bd65f26136fdcb57986dbff8a52de5febf7aea59c126d29e1" => :high_sierra
-    sha256 "9cce71768fe388808e11b26d651b44a6b54219f5406845b4273b5099f5c1f76f" => :sierra
-  end
 
   depends_on "python"
 
