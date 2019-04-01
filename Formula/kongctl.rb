@@ -9,8 +9,8 @@ class Kongctl < Formula
 
   desc "Command-line client for Kong admin api"
   homepage "https://github.com/kepkin/kongctl"
-  url "https://files.pythonhosted.org/packages/8e/86/e50584843b0cb6b376d82ff3ab5c5295dcc2c60cd109c59f29b4c58e2076/kongctl-0.0.4.tar.gz"
-  sha256 "6e25c31d6f1e2a5c0c46d160290382a28185f6add1119e63faa6d732627b0f45"
+  url "https://files.pythonhosted.org/packages/d3/d8/0cc864c2582659f6eedde54c5433b56df61c04a56730a86e56c39954341f/kongctl-0.0.5.tar.gz"
+  sha256 "26e59a1cbb37cea743f51c3295a8072919bccaa0184beb0f8e75e2f0bf7c55ad"
   head "https://github.com/kepkin/kongctl.git"
 
   depends_on "python"
@@ -21,8 +21,8 @@ class Kongctl < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/55/54/3ce77783acba5979ce16674fc98b1920d00b01d337cfaaf5db22543505ed/certifi-2018.11.29.tar.gz"
-    sha256 "47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7"
+    url "https://files.pythonhosted.org/packages/06/b8/d1ea38513c22e8c906275d135818fee16ad8495985956a9b7e2bb21942a1/certifi-2019.3.9.tar.gz"
+    sha256 "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
   end
 
   resource "termcolor" do
