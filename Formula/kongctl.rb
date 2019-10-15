@@ -9,8 +9,8 @@ class Kongctl < Formula
 
   desc "Command-line client for Kong admin api"
   homepage "https://github.com/kepkin/kongctl"
-  url "https://files.pythonhosted.org/packages/a6/69/a3c4dd7259ed550ba11f4badb197a919b22720ad7c4e3017d53df616e81e/kongctl-0.2.6.tar.gz"
-  sha256 "5489adadb13a57686104aeea8f8967af1bd4ba250326cb31d5f605ff5249b638"
+  url "https://files.pythonhosted.org/packages/73/80/39a83e0cb59081f5f9110f97ec1b6954f4d7ae57abf999ac4d1f237943f7/kongctl-0.2.7.tar.gz"
+  sha256 "4b68e3af3041f9ee709233fdc9b16f629b9391a9dc04871cfd4090a8fb8c8240"
   head "https://github.com/kepkin/kongctl.git"
 
   depends_on "python"
