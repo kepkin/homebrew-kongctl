@@ -9,8 +9,8 @@ class Kongctl < Formula
 
   desc "Command-line client for Kong admin api"
   homepage "https://github.com/kepkin/kongctl"
-  url "https://files.pythonhosted.org/packages/e3/57/67ce09cb5bba363ea861deda631c84cfe48be250aae1c81afbc13b1f8f16/kongctl-0.3.2.tar.gz"
-  sha256 "9916a3e279c46b55a2343d1dd21d7022edd80c19d3e9b19e491e4f2f2727891b"
+  url "https://files.pythonhosted.org/packages/d3/30/b109e83a2e92d5a536c32679668449f77fb67366e7841e3871eebb61f650/kongctl-0.3.3.tar.gz"
+  sha256 "30cc91de828f1db2a915b3d1accd335dfe5c5e43f2f2d0e24b9e1f3b742addc4"
   head "https://github.com/kepkin/kongctl.git"
 
   depends_on "python"
@@ -22,8 +22,8 @@ class Kongctl < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/b8/e2/a3a86a67c3fc8249ed305fc7b7d290ebe5e4d46ad45573884761ef4dea7b/certifi-2020.4.5.1.tar.gz"
-    sha256 "51fcb31174be6e6664c5f69e3e1691a2d72a1a12e90f872cbdb1567eb47b6519"
+    url "https://files.pythonhosted.org/packages/b4/19/53433f37a31543364c8676f30b291d128cdf4cd5b31b755b7890f8e89ac8/certifi-2020.4.5.2.tar.gz"
+    sha256 "5ad7e9a056d25ffa5082862e36f119f7f7cec6457fa07ee2f8c339814b80c9b1"
   end
 
   resource "termcolor" do
@@ -51,10 +51,6 @@ class Kongctl < Formula
     sha256 "3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0"
   end
 
-  resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/a3/65/837fefac7475963d1eccf4aa684c23b95aa6c1d033a2c5965ccb11e22623/PyYAML-5.1.1.tar.gz"
-    sha256 "b4bb4d3f5e232425e25dda21c070ce05168a786ac9eda43768ab7f3ac2770955"
-  end
 
   def install
     virtualenv_install_with_resources
