@@ -9,8 +9,8 @@ class Kongctl < Formula
 
   desc "Command-line client for Kong admin api"
   homepage "https://github.com/kepkin/kongctl"
-  url "https://files.pythonhosted.org/packages/17/7d/a38717b82af29a01ff194aeffc75933561b525390beb4023ef63867f8cb3/kongctl-0.3.4.tar.gz"
-  sha256 "81c5953f3eefca958ccb5a0f2ad6f8a4759ac272e73048686ba90bb1eb31be55"
+  url "https://files.pythonhosted.org/packages/5d/fb/c32f43b3fc171affbcf6e787f9b8c6370e16b651f44b7a53ceb36e01c6a8/kongctl-0.3.5.tar.gz"
+  sha256 "0e687a437ad3eaee98e6339630eb36b35721fdfe6c68bb2a910f281e02682167"
   head "https://github.com/kepkin/kongctl.git"
 
   depends_on "python"
@@ -32,13 +32,13 @@ class Kongctl < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/05/8c/40cd6949373e23081b3ea20d5594ae523e681b6f472e600fbc95ed046a36/urllib3-1.25.9.tar.gz"
-    sha256 "3018294ebefce6572a474f0604c2021e33b3fd8006ecd11d62107a5d2a963527"
+    url "https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
+    sha256 "91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/cb/19/57503b5de719ee45e83472f339f617b0c01ad75cba44aba1e4c97c2b0abd/idna-2.9.tar.gz"
-    sha256 "7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb"
+    url "https://files.pythonhosted.org/packages/ea/b7/e0e3c1c467636186c39925827be42f16fee389dc404ac29e930e9136be70/idna-2.10.tar.gz"
+    sha256 "b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"
   end
 
   resource "chardet" do
